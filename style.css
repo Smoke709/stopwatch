@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+	color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.heading {
+	font-size: 2em;
+	margin: 2em;
+}
+
+#time{
+	background-color: #091921;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#time span {
+	font-size: 2.5em;
+}
+
+.buttons{
+	margin-top: 2em;
+}
+
+.button {
+	background-color: inherit;
+	color: white;
+	padding: 10px 45px;
+	border: none;
+	cursor: pointer;
+	transition-duration: 1s;
+}
+.start{
+	background-color: inherit;
+	color: white;
+}
+.start:hover{
+	background-color: green;
+	color: white;
+}
+.reset{
+	background-color: inherit;
+	color: white;
+}
+.reset:hover{
+	background-color: green;
+	color: white;
+}
+.stop{
+	background-color: inherit;
+	color: white;
+}
+.stop:hover{
+	background-color: green;
+	color: white;
+}
+
+#startbtn :hover{
+	background-color: green;
+}
+#startbtn{
+	width: 400px;
+}
+#resetbtn,#stopbtn{
+	display: none;
+	width: 200px;
+
+
+}
+
+
