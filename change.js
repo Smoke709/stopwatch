@@ -1,9 +1,9 @@
 const hourSpan = document.querySelector(".hours");
 const minuteSpan = document.querySelector(".minutes");
 const secondSpan = document.querySelector(".seconds");
-const startBtn = document.getElementById("startbtn");
-const resetBtn = document.getElementById("resetbtn");
-const stopBtn = document.getElementById("stopbtn");
+const startBtn = document.querySelector("#startbtn");
+const resetBtn = document.querySelector("#resetbtn");
+const stopBtn = document.querySelector("#stopbtn");
 
 
 let hours = 0, minutes = 0, seconds = 0;
