@@ -1,11 +1,6 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
 body {
-	background-color: grey;
+	background-color: teal;
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -19,16 +14,18 @@ body {
 
 #time{
 	background-color: #091921;
-	border-radius: 10px;
+	border-radius: 20px;
 	padding: 20px;
 }
 
 #time span {
-	font-size: 2.5em;
+	font-size: 2em;
+	
+
 }
 
 .buttons{
-	margin-top: 2em;
+	margin-top: 2.5em;
 }
 
 .button {
